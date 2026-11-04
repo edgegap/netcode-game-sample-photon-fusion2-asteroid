@@ -1,5 +1,7 @@
 ﻿# Photon Fusion 2 sample project
 
+![Add Edgegap dedicated game servers to Photon Fusion 2's Asteroids sample in Unity.](docs/images/card.jpg)
+
 This guide will help you create a headless server on Edgegap for a Unity project using [Photon Fusion 2]( https://doc.photonengine.com/en-us/fusion/current/getting-started/fusion-intro) as its networking solution. You will need an account with both Edgegap and Photon for this.
 
 We will use the sample project [Asteroid Simple (Host)](https://doc.photonengine.com/fusion/current/game-samples/fusion-asteroids) from Photon Fusion as an example.
