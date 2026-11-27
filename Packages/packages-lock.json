@@ -6,10 +6,9 @@
       "source": "git",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.2.1",
-        "com.unity.toolchain.win-x86_64-linux-x86_64": "2.0.6",
         "com.unity.modules.uielements": "1.0.0"
       },
-      "hash": "064fc8f095c1e2858ec37ca501ecc35a5a26a343"
+      "hash": "2f46758465f02832a0204e78988d5f55f218d7af"
     },
     "com.unity.ai.navigation": {
       "version": "2.0.6",

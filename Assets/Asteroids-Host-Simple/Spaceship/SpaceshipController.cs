@@ -78,6 +78,10 @@ namespace Asteroids.HostSimple
 
         public override void FixedUpdateNetwork()
         {
+            // Only the state authority (the dedicated server or host) runs the game logic;
+            // clients have no lag compensation and must not write networked state.
+            if (Object.HasStateAuthority == false) return;
+
             // Checks if the spaceship is ready to be respawned.
             if (_respawnTimer.Expired(Runner))
             {
