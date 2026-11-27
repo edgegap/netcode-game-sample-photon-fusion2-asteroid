@@ -8,13 +8,13 @@ We will use the sample project [Asteroid Simple (Host)](https://doc.photonengine
 
 ## Tutorial
 
-To test this sample:
+To test this sample, you need Unity 6 (6000.0 or later) with the Linux Dedicated Server Build Support module and Docker:
 
 - Clone the repo via the `git clone [URL]` command;
 - In the Unity editor, set these values with your own:
     - In `PhotonAppSettings.asset`: `App Id Fusion`;
 - Make sure both scenes under `Assets/Asteroids-Host-Simple/Scenes` are included in the build settings.
-- Build & containerize your server then create a new app verison with the Edgegap plugin.
+- Build & containerize your server then create a new app version with the Edgegap plugin (**Tools / Edgegap Hosting**). The project already includes the plugin; if Unity reports `No Linux sysroot found`, open Package Manager and make sure `com.unity.toolchain.win-x86_64-linux-x86_64` is installed.
 - Add app version port mapping with name `gameport`, internal port `7777`, and protocol `UDP`.
 - Start a new deployment via the Edgegap dashboard/plugin.
 - Before launching the client:
